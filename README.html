@@ -1,48 +1,6 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<html lang="en">
-<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <title>Territorial.io Vietnamese</title>
-  <meta name="description" content="Territorial.io - Nghệ thuật chinh phục">
-  <meta name="keywords"
-    content="territorial.io,territory games,territorial io,map games,games with maps,david tschacher,territorial,territory game,io game,io games,territory.io,territory io,territory games io">
-  <meta name="author" content="David Tschacher">
-  <style>
-    html,
-    body {
-      overflow: hidden;
-      padding: 0;
-      margin: 0;
-      background: rgb(0, 0, 0);
-      touch-action: none;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-  </style>
-</head>
-<body>
-  <canvas id="canvasA" width="156" height="156"></canvas>
+	
+ 
   <script>
 function a(){if(b)return c.username;if(12<=d){var g=e.loadString(20);""===g&&(g="Android User "+Math.floor(1E3*Math.random()),e.saveString(20,g))}else 5<=d?(g=e.loadString(0),""===g&&(g="Player "+Math.floor(1E3*Math.random()),e.saveString(0,g))):g=f.g(0);return g}function h(){i=Math.floor(1+Math.random()*(Math.pow(2,30)-1));if(b)i=c.id;else if(12<=d){var g=e.loadNumber(20);-1===g?e.saveNumber(20,i):i=g}else 5<=d?(g=e.loadNumber(2),2===g?e.saveNumber(2,i+3):i=g-3):i=f.g(1)}
 function j(){var g=0;if(b)g=c.password;else if(12<=d)g=e.loadString(22);else{if(5<=d)return g;g=f.g(9)}var k=Math.floor(Math.pow(2,48));g=Math.floor(parseInt(n.o(g)));if(0<g&&g<k)return g;g=Math.floor(1+(k-1)*Math.random());return p(g)?g:0}function q(){if(b)r=c.zoom||s<t;else if(12<=d){var g=e.loadNumber(21);-1===g?(r=100>=e.getNumber(0)||s<t,e.saveNumber(21,r?1:0)):r=1===g||s<t}else 5<=d?(g=e.loadNumber(1),2===g?(r=!0,e.saveNumber(1,r?1:0)):r=1===g):r=0===f.g(4)||s<t}
